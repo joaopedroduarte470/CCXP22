@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+}
+
+header img{
+    padding: 27px 0 28px 58px;
+}
+
+#info{
+    display: flex;
+    grid-auto-flow: column;
+}
+
+.intro{
+    width: 800px;
+    background: #514988;
+}
+
+.intro h1{
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    color: #F3C61F;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 31px;
+    line-height: 85.07px;
+}
+
+.intro h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.intro p{
+    font-weight: 400;
+    font-size: 29px;
+    text-align: center;
+    margin: 0;
+    padding: 72px 60px 92px 64px;
+    color: #FFF;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top:20px;
+}
+
+.timer h1{
+    color: #514988;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.intro2 h3{
+    color: #E33881;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.video{
+    margin-left: 40px;
+}
+
+#ingressos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+#ingressos h4{
+    color: #F3C61F;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 0;
+    padding: 15px 0 15px 89px;
+}
+
+.img1{
+    padding: 0 0 0 81px;
+}
+
+.botao{
+    width: 596px;
+    height: 148px;
+    border-radius: 20px;
+    border: 0;
+    background: #514988;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+    margin-left: 107px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: #FFD900;
+}
